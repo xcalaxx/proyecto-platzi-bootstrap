@@ -1,0 +1,124 @@
+img{object-fit: cover;}
+
+.text-platzi {
+  color: #97c93e !important;
+}
+
+.btn-platzi {
+  background-color: #97c93e;
+  color: white;
+}
+
+.btn-platzi:hover {
+  background-color: #82ad36;
+}
+.navbar-brand.conf{
+  font-size: 16px !important;
+}
+
+nav#header {
+  background: -webkit-linear-gradient(0deg, #1c3643 0, #273b47 25%, #1e5372);
+  background: -moz-linear-gradient(0deg, #1c3643 0, #273b47 25%, #1e5372);
+  background: -o-linear-gradient(0deg, #1c3643 0, #273b47 25%, #1e5372);
+  background: -ms-linear-gradient(0deg, #1c3643 0, #273b47 25%, #1e5372);
+  background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+  color: #fff;
+  font-size: 13px;
+}
+nav#header a{
+  cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+#header img {
+  width: 70px;
+}
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+
+.hr{
+  background-color:rgba(255, 255, 255, 0.2);
+}
+.line {
+  display: block;
+  width: 72px;
+  height: 4px;
+  background: #82ad36;
+  margin: 35px auto;
+}
+.icon-heart:before {
+  content: "\E63A";
+}
+.platzi .icon-heart {
+  color: #98ca3f;
+  font-size: 1rem;
+}
+.fonts, [class^="icon-"]:before, [class*=" icon-"]:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'icomoon';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-transform: none;
+}
+
+footer p{
+  color:#ffffff;
+}
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#place-time {
+  background-color: #343a40;
+  color: white;
+}
+
+#place-time img {
+  max-width: 100%;
+}
+
+#footer {
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+#footer a {
+  color: white;
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width:768px){ 
+  .nav-link{
+
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom:1px solid  rgba(219,219,226,0.25);
+  }
+  .nav-item .text-platzi:nth-of-type(1){
+    border:0;
+  }
+ }
